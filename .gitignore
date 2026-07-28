@@ -1,0 +1,30 @@
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Data files (do not upload raw PPMI data)
+data/*.csv
+data/*.xlsx
+data/*.rds
+data/*.RData
+!data/.gitkeep
+
+# Output files
+output/
+figures/
+supplementary/
+
+# renv
+renv/library/
+renv/staging/
+renv/sandbox/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
